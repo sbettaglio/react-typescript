@@ -32,6 +32,7 @@
     "@types/jest": "^25.2.1",
     "@types/node": "^13.13.5",
     "@types/react-dom": "^16.9.7",
+    "@types/react-router-dom": "^5.1.5",
     "json": "^9.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
