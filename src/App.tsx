@@ -4,6 +4,7 @@ import Page from './pages/Page'
 import Page2 from './pages/Page2'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
+import Class from './pages/Class'
 
 const App = () => {
   return (
@@ -21,6 +22,9 @@ const App = () => {
             <li>
               <Link to="/2">Page 2</Link>
             </li>
+            <li>
+              <Link to="/class">Classes</Link>
+            </li>
           </ul>
         </nav>
       </header>
@@ -28,6 +32,7 @@ const App = () => {
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/1" component={Page}></Route>
         <Route exact path="/2" component={Page2}></Route>
+        <Route exact path="/class" component={Class}></Route>
         <Route path="*" component={NotFound}></Route>
       </Switch>
     </Router>
