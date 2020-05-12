@@ -5,6 +5,7 @@ import Page2 from './pages/Page2'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
 import Class from './pages/Class'
+import Hoc from './pages/Hoc'
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
         <Route exact path="/1" component={Page}></Route>
         <Route exact path="/2" component={Page2}></Route>
         <Route exact path="/class" component={Class}></Route>
+        {/* <Route exact path="/hoc" component={Hoc}></Route> */}
         <Route path="*" component={NotFound}></Route>
       </Switch>
     </Router>

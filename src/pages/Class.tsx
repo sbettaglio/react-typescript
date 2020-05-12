@@ -15,7 +15,7 @@ class Class extends Component<any, State> {
     return (
       <>
         <h1>Classes!</h1>
-        <Message message={this.state.message} name={this.state.name} />
+        <Message />
       </>
     )
   }
